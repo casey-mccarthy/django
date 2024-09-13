@@ -244,6 +244,13 @@ Validators
   :class:`.MinLengthValidator`, and :class:`.MaxLengthValidator` now accept
   a callable ``limit_value``.
 
+
+:mod:`django.shortcuts`
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* The new:func:`django.shortcuts.make_toast` function returns ``'toast'``.
+
+
 .. _backwards-incompatible-2.2:
 
 Backwards incompatible changes in 2.2
